@@ -1,6 +1,8 @@
 import java.io.*;
 import java.net.*;
-
+/*SupplierClient is also identical to CustomerClientA and B 
+ * 	It connects to the server and sends commands such as CHECK STOCK and ADD APPLES n and ADD ORANGES n
+ * 	to replenish the warehouse stock*/
 public class SupplierClient {
 	public static void main(String[] args) throws IOException{
 		// Set up the socket, in and out variables
