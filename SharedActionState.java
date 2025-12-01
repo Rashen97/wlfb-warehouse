@@ -1,6 +1,7 @@
 import java.net.*;
 import java.io.*;
-
+/*SharedActionState stores the shared warehouse stock such as apples and oranges
+ * 	and provide locking and command processing so that multiple threads can safely update and read the shared data*/
 public class SharedActionState{
 
 	private SharedActionState mySharedObj;
