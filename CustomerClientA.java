@@ -1,6 +1,8 @@
 import java.io.*;
 import java.net.*;
-
+/*CustomerClientA is the Customer A which is  console-based
+ * 	It connects to the server, sends commands such as CHECK STOCK, BUY APPLES n and BUY ORANGES n
+ * 			and display the server's responses. */
 public class CustomerClientA {
 	public static void main(String[] args) throws IOException{
 		// Set up the socket, in and out variables
