@@ -13,7 +13,7 @@ public class CustomerClientB {
 		PrintWriter out = null;
 		BufferedReader in = null;
 		int ActionSocketNumber = 4545;
-		String ActionServerName = "localhost";
+		String ActionServerName = "localhost";  // action server name
 		String ActionClientID = "CustomerClientB";  // Thread iD
 
 		try {
