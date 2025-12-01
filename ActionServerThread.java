@@ -2,7 +2,8 @@
 import java.net.*;
 import java.io.*;
 
-
+/*ActionServerThread handles all communication with a single client, 
+ * 	reading commands from the socket, calling SharedActionState, and sending responses back. */
 public class ActionServerThread extends Thread {
 
 	
