@@ -1,6 +1,7 @@
 import java.net.*;
 import java.io.*;
-
+/* ActionServer starts the warehouse server, listens for client connections
+ * 	and creates one ActionServerThread per client using a shared SharedActionState. */
 public class ActionServer {
   public static void main(String[] args) throws IOException {
 
