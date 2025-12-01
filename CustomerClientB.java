@@ -4,7 +4,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
-
+/*CustomerClientA is identical to CustomerClientA and is a console-based for Customer B
+ * 	use to generate concurrent requests to the server*/
 public class CustomerClientB {
 	public static void main(String[] args) throws IOException{
 		// Set up the socket, in and out variables
